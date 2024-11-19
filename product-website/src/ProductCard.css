@@ -1,0 +1,59 @@
+/* ProductCard.css */
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    padding: 15px;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px; /* Fixed height for consistent card size */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .product-name {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .buy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: #0056b3;
+  }  
